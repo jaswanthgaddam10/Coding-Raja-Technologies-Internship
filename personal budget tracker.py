@@ -1,4 +1,5 @@
-import json, os
+import json
+import os
 from datetime import datetime
 FILE = 'budget_data.json'
 if not os.path.exists(FILE): json.dump([], open(FILE, 'w'))
